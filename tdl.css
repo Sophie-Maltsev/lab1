@@ -1,0 +1,144 @@
+header {
+    background-color: #0360c4;
+    color: white;
+    padding: 10px;
+    padding-left: 100px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+body {
+    background-color: #e8ebf1; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 130px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 21px;
+    }
+}
+
+article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 880px;
+    padding: 60px;
+    padding-left: 27px;
+    padding-top: 10px;
+    background-color: #fffffff0;
+    border-radius: 14px;
+    height: 90px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1em;
+    color:#ccc;
+}
+
+input, textarea {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.button1 {
+    background-color: #0360c4;
+    color: #fffffff0;
+    border-radius: 7px;
+    border: 1px;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.backlog-bg {
+    background-color: rgba(200, 192, 193, 0.682);
+    margin: 20px;
+    width: 135px; 
+    height: 40px;
+    top: -52px; 
+    left: -50px; 
+    border-radius: 10px;
+    z-index: -1;
+    position: relative;
+}
+
+.in-process {
+    position: relative;
+    margin: 20px;
+    width: 185px; 
+    height: 40px;
+    top: -52px; 
+    left: -50px; 
+    background-color: #80e8938a;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.done {
+    position: relative;
+    margin: 20px;
+    width: 140px; 
+    height: 40px;
+    top: -52px; 
+    left: -50px; 
+    background-color: #9380e86b;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.trash {
+    position: relative;
+    margin: 20px;
+    width: 160px; 
+    height: 40px;
+    top: -52px; 
+    left: -50px; 
+    background-color: #b66b6a9f;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.task {
+    background: #ffffff; 
+    color: #333232; 
+    padding: 12px; 
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    position: relative; 
+    left: -30px;
+    top: -50px;
+}
+
+.clear-btn {
+    background-color: #c02e2ec6;
+    color: #fffffff0;
+    font-size: 16px;
+    width: 223px;
+    height: 30px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px; 
+    position: relative; 
+    left: -30px;
+}

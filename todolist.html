@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="tdl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h1>Список задач</h1>
+</header>
+<main>
+    <article>
+        <h2>Новая задача</h2>
+        <input type = "text" placeholder="Название задачи...">
+        <button class = "button1">Добавить</button>
+    </article>
+    <div class="grid">
+        <section>
+            <h2>Бэклог</h2>
+            <div class="backlog-bg"></div>
+            <p class="task">Выучить JS</p>
+            <p class="task">Выучить React</p>
+            <p class="task">Сделать домашку</p>
+        </section>
+        <section>
+            <h2>В процессе</h2>
+            <div class="in-process"></div>
+            <p class="task">Выпить смузи</p>
+            <p class="task">Попить воды</p>
+        </section>
+        <section>
+            <h2>Готово</h2>
+            <div class="done"></div>
+            <p class="task">Позвонить маме</p>
+            <p class="task">Погладить кота</p>
+        </section>
+        <section>
+            <h2>Корзина</h2>
+            <div class="trash"></div>
+            <p class="task">Сходить погулять</p>
+            <p class="task">Прочитать Войну и Мир</p>
+            <button class="clear-btn">Очистить</button>
+        </section>
+    </div>
+</main>
+<footer>
+</footer>
